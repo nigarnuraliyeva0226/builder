@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.head {
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.enter a{
+    text-decoration: none;
+    color: black;
+    margin:  30px;
+}
+.enter {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 13px 50px;
+}
+a.home {
+    color: orange;
+}
+a.search {
+  margin: 15px;
+    
+}
+.enter a:hover{
+   color: orange;
+   transition: 0.3s;
+}
+main{
+    height: 900px;
+}
+.banner {
+    width: 100%;
+    z-index: -1;
+}
+.text {
+    display: flex;
+    margin-top: -500px;
+    margin-left: 700px;
+    font-size: 25px;
+    color: white;
+}
+.dream {
+    background-color: orange;
+    color: black;
+    margin-left: 20px;
+}
+.paragraph {
+    margin: 0 auto;
+    width: 900px;
+    color: white;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.discover {
+width: 140px;
+height: 50px;
+background-color: black;
+margin-left: 810px;
+margin-top: 30px;
+cursor: pointer;
+color: orange;
+}
+section{
+    margin-top: 100px;
+    height: 800px;
+    text-align: center;
+}
+.offer {
+    font-size: 33px;
+}
+section p{
+    font-size: 17px;
+    color: rgb(37, 36, 36);
+}
+.display {
+    /* border: 1px solid black; */
+    margin: 100px auto;
+    width: 1300px;
+    height: 400px;
+    display: flex;
+}
+.display h2{
+    margin-top: 20px;
+}
+.display p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.build {
+    width: 900px;
+}
+.paint {
+    width: 900px;
+    margin-left: 50px;
+
+}
+.repar {
+    width: 900px;
+    margin-left: 50px;
+
+}
+section h2{
+    font-size: 30px;
+}
+.display1{
+    display: flex;
+    margin-top: 80px;
+    height: 340px;
+
+}
+.display1_ {
+    display: flex;
+    height: 340px;
+}
+.expert {
+    height: 400px;
+}
+ .src1{
+    position: absolute;
+ }
+ .src2 {
+    position: absolute;
+ }
+ .src3 {
+    position: absolute;
+ }
+ .src4 {
+    position: absolute;
+ }
+ .src5 {
+    position: absolute;
+ }
+ .src6 {
+    position: absolute;
+ }
+ .ds6 {
+    position: relative;
+    width: 620px;
+   height: 340px;
+   visibility: hidden;
+   background-color:#fd7e14;
+   opacity: 0;
+ }
+ .ds5 {
+    position: relative;
+    width: 620px;
+   height: 340px;
+   visibility: hidden;
+   background-color:#fd7e14;
+   opacity: 0;
+ }
+ .ds4 {
+    position: relative;
+    width: 620px;
+   height: 340px;
+   visibility: hidden;
+   background-color:#fd7e14;
+   opacity: 0;
+ }
+ .ds3{
+    position: relative;
+    width: 620px;
+    height: 340px;
+    visibility: hidden;
+    background-color:#fd7e14;
+    opacity: 0;
+ }
+ .ds2{
+    position: relative;
+     width: 620px;
+    height: 340px;
+    visibility: hidden;
+    background-color:#fd7e14;
+    opacity: 0;
+ }
+ .ds1{
+    width: 620px;
+    height: 340px;
+    visibility: hidden;
+    background-color:#fd7e14;
+    opacity: 0;
+    position: relative;
+ }
+
+   .display2:hover .ds1{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+   }
+   .display3:hover .ds2{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+   }
+   .display4:hover .ds3{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+   }
+   .display5:hover .ds4{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+   }
+   .display6:hover .ds5{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+   }
+   .display7:hover .ds6{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+   }
+   .pht {
+    width: 620px;
+    height: 340px;
+   }
+ 
+.n1 , .m1{
+    padding-top: 90px;
+}
+.n1 {
+    font-size: 25px;
+}
+.m1 {
+    font-size: 18px;
+}
+.team_{
+    margin-top: 90px;
+}
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -70px auto;
+}
+.photo1{
+    border: 1px solid black;
+    height: 300px;
+}
+.manage:hover .director {
+   background-color: #fd7e14;
+    transition: 0.5s;
+}
